@@ -9,21 +9,49 @@
 /* Begin PBXBuildFile section */
 		4E78B0CD25DF41C40020D775 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E78B0CC25DF41C40020D775 /* AppDelegate.swift */; };
 		4E78B0CF25DF41C40020D775 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E78B0CE25DF41C40020D775 /* SceneDelegate.swift */; };
-		4E78B0D125DF41C40020D775 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E78B0D025DF41C40020D775 /* ViewController.swift */; };
+		4E78B0D125DF41C40020D775 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E78B0D025DF41C40020D775 /* HomeViewController.swift */; };
 		4E78B0D425DF41C40020D775 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E78B0D225DF41C40020D775 /* Main.storyboard */; };
 		4E78B0D625DF41C70020D775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E78B0D525DF41C70020D775 /* Assets.xcassets */; };
 		4E78B0D925DF41C70020D775 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E78B0D725DF41C70020D775 /* LaunchScreen.storyboard */; };
+		4E78B0EB25DF44540020D775 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E78B0EA25DF44540020D775 /* ExploreViewController.swift */; };
+		4E78B0EE25DF44A60020D775 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E78B0ED25DF44A60020D775 /* CameraViewController.swift */; };
+		4E78B0F125DF44E00020D775 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E78B0F025DF44E00020D775 /* NotificationViewController.swift */; };
+		4E78B0F425DF450C0020D775 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E78B0F325DF450C0020D775 /* ProfileViewController.swift */; };
+		4E78B0FB25DF460D0020D775 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E78B0FA25DF460D0020D775 /* LoginViewController.swift */; };
+		4E78B0FE25DF46210020D775 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E78B0FD25DF46210020D775 /* RegistrationViewController.swift */; };
+		4E78B10125DF466B0020D775 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E78B10025DF466B0020D775 /* PostViewController.swift */; };
+		4E78B10425DF469C0020D775 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E78B10325DF469C0020D775 /* EditProfileViewController.swift */; };
+		4E78B10725DF46C50020D775 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E78B10625DF46C50020D775 /* SettingsViewController.swift */; };
+		4E78B10A25DF46ED0020D775 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E78B10925DF46ED0020D775 /* ListViewController.swift */; };
+		4E78B10D25DF471C0020D775 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E78B10C25DF471C0020D775 /* SearchViewController.swift */; };
+		4E78B11025DF47360020D775 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E78B10F25DF47360020D775 /* SearchResultViewController.swift */; };
+		4E78B11325DF477C0020D775 /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E78B11225DF477C0020D775 /* PostEditorViewController.swift */; };
+		4E78B11625DF47A20020D775 /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E78B11525DF47A20020D775 /* PublishPostViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4E78B0C925DF41C40020D775 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E78B0CC25DF41C40020D775 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E78B0CE25DF41C40020D775 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4E78B0D025DF41C40020D775 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E78B0D025DF41C40020D775 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4E78B0D325DF41C40020D775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E78B0D525DF41C70020D775 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E78B0D825DF41C70020D775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E78B0DA25DF41C70020D775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E78B0EA25DF44540020D775 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		4E78B0ED25DF44A60020D775 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		4E78B0F025DF44E00020D775 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		4E78B0F325DF450C0020D775 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		4E78B0FA25DF460D0020D775 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4E78B0FD25DF46210020D775 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		4E78B10025DF466B0020D775 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		4E78B10325DF469C0020D775 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		4E78B10625DF46C50020D775 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4E78B10925DF46ED0020D775 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		4E78B10C25DF471C0020D775 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		4E78B10F25DF47360020D775 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		4E78B11225DF477C0020D775 /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
+		4E78B11525DF47A20020D775 /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +84,93 @@
 		4E78B0CB25DF41C40020D775 /* Instagram */ = {
 			isa = PBXGroup;
 			children = (
-				4E78B0CC25DF41C40020D775 /* AppDelegate.swift */,
-				4E78B0CE25DF41C40020D775 /* SceneDelegate.swift */,
-				4E78B0D025DF41C40020D775 /* ViewController.swift */,
-				4E78B0D225DF41C40020D775 /* Main.storyboard */,
-				4E78B0D525DF41C70020D775 /* Assets.xcassets */,
-				4E78B0D725DF41C70020D775 /* LaunchScreen.storyboard */,
+				4E78B0E725DF43040020D775 /* Resources */,
+				4E78B0E625DF42DB0020D775 /* Models */,
+				4E78B0E525DF42860020D775 /* Views */,
+				4E78B0E225DF42560020D775 /* Controllers */,
 				4E78B0DA25DF41C70020D775 /* Info.plist */,
 			);
 			path = Instagram;
+			sourceTree = "<group>";
+		};
+		4E78B0E225DF42560020D775 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4E78B0F825DF45D30020D775 /* Other */,
+				4E78B0F625DF453C0020D775 /* Core Tabs */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4E78B0E525DF42860020D775 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4E78B0E825DF436B0020D775 /* Storyboards */,
+				4E78B0D525DF41C70020D775 /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4E78B0E625DF42DB0020D775 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4E78B0E725DF43040020D775 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4E78B0CC25DF41C40020D775 /* AppDelegate.swift */,
+				4E78B0CE25DF41C40020D775 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4E78B0E825DF436B0020D775 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4E78B0D725DF41C70020D775 /* LaunchScreen.storyboard */,
+				4E78B0D225DF41C40020D775 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		4E78B0F625DF453C0020D775 /* Core Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				4E78B0F325DF450C0020D775 /* ProfileViewController.swift */,
+				4E78B0D025DF41C40020D775 /* HomeViewController.swift */,
+				4E78B0EA25DF44540020D775 /* ExploreViewController.swift */,
+				4E78B0ED25DF44A60020D775 /* CameraViewController.swift */,
+				4E78B0F025DF44E00020D775 /* NotificationViewController.swift */,
+			);
+			path = "Core Tabs";
+			sourceTree = "<group>";
+		};
+		4E78B0F825DF45D30020D775 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4E78B0F925DF45DC0020D775 /* Onboarding */,
+				4E78B10025DF466B0020D775 /* PostViewController.swift */,
+				4E78B10325DF469C0020D775 /* EditProfileViewController.swift */,
+				4E78B10625DF46C50020D775 /* SettingsViewController.swift */,
+				4E78B10925DF46ED0020D775 /* ListViewController.swift */,
+				4E78B10C25DF471C0020D775 /* SearchViewController.swift */,
+				4E78B10F25DF47360020D775 /* SearchResultViewController.swift */,
+				4E78B11225DF477C0020D775 /* PostEditorViewController.swift */,
+				4E78B11525DF47A20020D775 /* PublishPostViewController.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		4E78B0F925DF45DC0020D775 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				4E78B0FA25DF460D0020D775 /* LoginViewController.swift */,
+				4E78B0FD25DF46210020D775 /* RegistrationViewController.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +243,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E78B0D125DF41C40020D775 /* ViewController.swift in Sources */,
+				4E78B10425DF469C0020D775 /* EditProfileViewController.swift in Sources */,
+				4E78B0EB25DF44540020D775 /* ExploreViewController.swift in Sources */,
+				4E78B11625DF47A20020D775 /* PublishPostViewController.swift in Sources */,
+				4E78B0EE25DF44A60020D775 /* CameraViewController.swift in Sources */,
+				4E78B0F125DF44E00020D775 /* NotificationViewController.swift in Sources */,
+				4E78B0FE25DF46210020D775 /* RegistrationViewController.swift in Sources */,
+				4E78B11325DF477C0020D775 /* PostEditorViewController.swift in Sources */,
+				4E78B10125DF466B0020D775 /* PostViewController.swift in Sources */,
+				4E78B0D125DF41C40020D775 /* HomeViewController.swift in Sources */,
+				4E78B11025DF47360020D775 /* SearchResultViewController.swift in Sources */,
+				4E78B0FB25DF460D0020D775 /* LoginViewController.swift in Sources */,
+				4E78B10D25DF471C0020D775 /* SearchViewController.swift in Sources */,
+				4E78B0F425DF450C0020D775 /* ProfileViewController.swift in Sources */,
 				4E78B0CD25DF41C40020D775 /* AppDelegate.swift in Sources */,
 				4E78B0CF25DF41C40020D775 /* SceneDelegate.swift in Sources */,
+				4E78B10A25DF46ED0020D775 /* ListViewController.swift in Sources */,
+				4E78B10725DF46C50020D775 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
